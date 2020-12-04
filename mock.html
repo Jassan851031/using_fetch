@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mock TGR</title>
+</head>
+
+<body>
+    <h1>Hola</h1>
+    
+    <form>
+        <label for="name">Nombre:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="rut">Rut:</label><br>
+        <input type="text" id="rut" name="rut"><br>
+        <label for="email">Correo:</label><br>
+        <input type="text" id="email" name="email"><br>
+        <label for="phone">Telefono:</label><br>
+        <input type="number" id="phone" name="phone"><br>
+        <br>
+        <button id="buttom">Enviar Datos</button>
+        
+    </form>
+    
+    <br><br><br>
+    
+    
+    <table>
+        <tr>
+            <th>id</th>
+            <th>Nombre</th>
+            <th>Rut</th>
+            <th>Correo</th>
+            <th>Telefono</th>
+            <th><button id="refresh">Refrescar</button></th>
+        </tr>
+        <tbody id="lista">
+            
+        </tbody>
+        
+        
+    </table>
+    
+    <script src="./mock_post.js"></script>
+    <script src="./mock_get.js"></script>
+</body>
+
+</html>
