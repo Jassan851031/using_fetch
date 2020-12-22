@@ -18,9 +18,6 @@ post.addEventListener("click", (e) => {
         "email": email,
         "phone": phone
     };
-    console.log("**************")
-    console.log(data)
-    console.log("**************")
 
      fetch(url_post, {
         method: "POST",
@@ -29,10 +26,8 @@ post.addEventListener("click", (e) => {
             "Content-Type": "application/json",
         },
     })
-        .then((resp) => resp.json())
+        .then((resp) => console.log(resp.json))
         .then((data) => console.log(data));
    
 
 });
-
-

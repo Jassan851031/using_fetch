@@ -1,4 +1,4 @@
-let url = "https://5fca4ac03c1c2200164421dd.mockapi.io/tgr/nomina";
+let url = "https://5fe1267504f0780017de9a59.mockapi.io/usuarios";
 const lista = document.getElementById('lista');
 const fragment = document.createDocumentFragment();
 const button = document.getElementById("refresh");
