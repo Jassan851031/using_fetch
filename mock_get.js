@@ -10,7 +10,6 @@ button.addEventListener("click", (e) => {
     fetch(url)
         .then((response) => response.json())
         .then((data) => {
-            console.log(data)
             data.forEach(element => {
                 console.log(element.name)
 
